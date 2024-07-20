@@ -1,9 +1,12 @@
 import './App.css'
+import Nav from './components/Navbar'
 
 function App() {
   return (
     <>
-      <h1>Tailwind Welcome</h1>
+      <div>
+        <Nav />
+      </div>
     </>
   )
 }
