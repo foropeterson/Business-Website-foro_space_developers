@@ -1,11 +1,11 @@
-import { Navbar, Button } from 'flowbite-react'
-import Logo from '../../assets/img/navbar/Logo (1).svg'
-import "./styles.css"
+import { Navbar, Button } from 'flowbite-react';
+import Logo from '../../assets/img/navbar/Logo (1).svg';
+import "./styles.css";
 
 const Nav = () => {
     return (
         // START NAVBAR
-        <div className='container mx-auto my-0'>
+        <div className='container mx-auto my-0 fixed top-0 left-0 right-0 z-50 bg-white'>
             <Navbar fluid rounded>
                 {/* START WEBSITE LOGO */}
                 <Navbar.Brand href="#">
@@ -34,7 +34,7 @@ const Nav = () => {
             </Navbar>
         </div>
         // END NAVBAR
-    )
+    );
 }
 
-export default Nav
+export default Nav;
