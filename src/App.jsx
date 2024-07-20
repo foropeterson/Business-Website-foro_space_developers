@@ -1,4 +1,4 @@
-import './App.css'
+import Header from './components/Header'
 import Nav from './components/Navbar'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <Nav />
+        <Header />
       </div>
     </>
   )

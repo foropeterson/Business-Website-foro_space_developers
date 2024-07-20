@@ -3,10 +3,14 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    'node_modules/flowbite-react/lib/esm/**/*.js', // Kichik harflar bilan yozilgan
+    'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'Circle': "url('./src/assets/img/header/Circle.svg')",
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
