@@ -21,7 +21,7 @@ const Nav = () => {
                 {/* END LOGIN BTN */}
 
                 {/* nav list */}
-                <Navbar.Collapse>
+                <ul>
                     <div className='md:flex gap-12'>
                         <Navbar.Link className='text-[#0B041B] text-lg' href="#" active>
                             About <span className='border-b-2 border-[#FF7715] hover:border-none duration-75 hover:duration-75'>amid</span>
@@ -30,7 +30,7 @@ const Nav = () => {
                         <Navbar.Link href="#" className='hover-a text-lg'>Portfolio</Navbar.Link>
                         <Navbar.Link href="#" className='hover-a text-lg'>Reviews</Navbar.Link>
                     </div>
-                </Navbar.Collapse>
+                </ul>
             </Navbar>
         </div>
         // END NAVBAR
