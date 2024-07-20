@@ -1,3 +1,4 @@
+import Brands from './components/Brands'
 import Header from './components/Header'
 import Nav from './components/Navbar'
 
@@ -7,6 +8,7 @@ function App() {
       <div>
         <Nav />
         <Header />
+        <Brands />
       </div>
     </>
   )
