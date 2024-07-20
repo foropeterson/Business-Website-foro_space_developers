@@ -6,7 +6,7 @@ const myPlugin = () => {
     name: 'my-plugin',
     configureServer(server) {
       server.httpServer.once('listening', () => {
-        console.log('Happy Hacking');
+        console.log('Happy Hacking, 🫠 🫠 😴\n Github https://github.com/jasurhaydarovcode');
       });
     },
   };
