@@ -15,7 +15,7 @@ const myPlugin = () => {
 export default defineConfig({
   plugins: [react(), myPlugin()],
   server: {
-    port: 16000,
+    port: 8080,
     open: true,
   },
 });

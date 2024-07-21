@@ -46,10 +46,12 @@ body::-webkit-scrollbar-thumb {
 
 
 /* START SELECTION */
+
 body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
+
 /* END SELECTION*/
