@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Graphik Trial, sans-serif;
 }
@@ -39,3 +43,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* END SCROOLBAR */
+
+
+/* START SELECTION */
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* END SELECTION*/

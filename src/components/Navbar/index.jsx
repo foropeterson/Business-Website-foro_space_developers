@@ -15,7 +15,7 @@ const Nav = () => {
 
                 {/* START LOGIN BTN */}
                 <div className="flex md:order-2">
-                    <Button className='text-4xl bg-[#124F48] p-2 px-6 rounded-[31.5px]'>Login</Button>
+                    <Button id='green-btn' className='text-4xl bg-[#124F48] p-2 px-6 rounded-[31.5px]'>Login</Button>
                     <Navbar.Toggle />
                 </div>
                 {/* END LOGIN BTN */}

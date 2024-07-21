@@ -10,6 +10,9 @@ export default {
       backgroundImage: {
         'Circle': "url('./src/assets/img/header/Circle.svg')",
       },
+      colors: {
+        rootOrange: '#FF823B',
+      },
     },
   },
   plugins: [
