@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Nav from './components/Navbar';
 import Achive from './components/Achive';
 import Services from './components/Services';
+import WithLoading from './components/Loading/WithLoading'
 
 function App() {
   useEffect(() => {
@@ -16,21 +17,23 @@ function App() {
   useScrollSpeed(10);
 
   return (
-    <>
+    <WithLoading>
       <div>
         <Nav />
-        <Header />
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="4000">
+          <Header />
+        </div>
+        <div data-aos="fade-down-left">
           <Brands />
         </div>
         <div data-aos="fade-left">
           <Services />
         </div>
-        <div data-aos="fade-right">
+        <div data-aos="fade-down-right">
           <Achive />
         </div>
       </div>
-    </>
+    </WithLoading>
   );
 }
 
