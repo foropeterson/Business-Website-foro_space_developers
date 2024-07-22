@@ -21,20 +21,50 @@ function App() {
   return (
     <WithLoading>
       <div>
+        {/* START NAVBAR */}
         <Nav />
+        {/* END NAVBAR */}
+
+
+
+        {/* START HEADER */}
         <div data-aos="fade-up" data-aos-duration="4000">
           <Header />
         </div>
-        <div data-aos="fade-down-left">
+        {/* END HEADER */}
+
+
+
+        {/* START BRANDS */}
+        <div data-aos="fade-down-left" data-aos-duration="4000">
           <Brands />
         </div>
-        <div data-aos="fade-left">
+        {/* END BRANDS */}
+
+
+
+        {/* START SERVICES */}
+        <div data-aos="fade-left" data-aos-duration="4000">
           <Services />
         </div>
-        <div data-aos="fade-down-right">
+        {/* END SERVICES */}
+
+
+
+        {/* START ACHIVE */}
+        <div data-aos="fade-down-right" data-aos-duration="4000">
           <Achive />
         </div>
-        <Blog />
+        {/* END ACHIVE */}
+
+
+
+        {/* START BLOG */}
+        <div data-aos="fade-up"
+          data-aos-anchor-placement="top-center" data-aos-duration="4000">
+          <Blog />
+        </div>
+        {/* END BLOG */}
       </div>
     </WithLoading>
   );
