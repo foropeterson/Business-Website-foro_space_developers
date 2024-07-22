@@ -1,3 +1,4 @@
+// App.jsx
 import React, { useEffect } from 'react';
 import useScrollSpeed from './assets/js/useScrollSpeed';
 import AOS from 'aos';
@@ -7,7 +8,8 @@ import Header from './components/Header';
 import Nav from './components/Navbar';
 import Achive from './components/Achive';
 import Services from './components/Services';
-import WithLoading from './components/Loading/WithLoading'
+import WithLoading from './components/Loading/WithLoading';
+import Blog from './components/Blog';
 
 function App() {
   useEffect(() => {
@@ -32,6 +34,7 @@ function App() {
         <div data-aos="fade-down-right">
           <Achive />
         </div>
+        <Blog />
       </div>
     </WithLoading>
   );
