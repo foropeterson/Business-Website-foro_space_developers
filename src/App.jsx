@@ -10,6 +10,7 @@ import Achive from './components/Achive';
 import Services from './components/Services';
 import WithLoading from './components/Loading/WithLoading';
 import Blog from './components/Blog';
+import FooterP from './components/Footer/Footer';
 
 function App() {
   useEffect(() => {
@@ -65,6 +66,13 @@ function App() {
           <Blog />
         </div>
         {/* END BLOG */}
+
+
+        {/* START FOOTER */}
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <FooterP />
+        </div>
+        {/* END FOOTER */}
       </div>
     </WithLoading>
   );

@@ -9,6 +9,7 @@ export default {
         'Circle': "url('./src/assets/img/header/Circle.svg')",
       },
       colors: {
+        rootOpenBlue: "#E9FBF9",
         rootOrange: '#FF823B',
         rootGreen: '#124F48',
       },
