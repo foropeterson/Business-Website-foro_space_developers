@@ -49,9 +49,9 @@ const FooterP = () => {
                         </a>
                     </nav>
                     <div className="text-right mt-4 md:mt-0">
-                        <p className="text-muted-foreground">+998 1276 234</p>
-                        <p className="text-muted-foreground">82/93 Boeind Street. NY</p>
-                        <p className="text-muted-foreground">info@amid.mail.com</p>
+                        <p className="text-muted-foreground">+254110173956</p>
+                        <p className="text-muted-foreground">NAIROBI KENYA</p>
+                        <p className="text-muted-foreground">FOROPETERSON@NGAIL.COM</p>
                     </div>
                 </div>
                 {/* END FOOTER NAVIGATIONS */}
@@ -63,7 +63,7 @@ const FooterP = () => {
             <div className='bg-rootGreen' >
                 <div className='container mx-auto my-0'>
                     <Footer container className='bg-rootGreen'>
-                        <Footer.Copyright className='text-white' href="#" by="All Rights Reserved @jasurhaydarovcode" year={2024} />
+                        <Footer.Copyright className='text-white' href="#" by="All Rights Reserved @FORO PETERSON" year={2024} />
                         <Footer.LinkGroup className='mt-2 sm:mt-0'>
                             <Footer.Link href="#" className='text-2xl text-white'><FaXTwitter /></Footer.Link>
                             <Footer.Link href="#" className='text-2xl text-white'><FaFacebook /></Footer.Link>
